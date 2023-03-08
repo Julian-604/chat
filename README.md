@@ -1,6 +1,6 @@
 # chat
 
-``
+
 import openai
 import os
 
@@ -18,4 +18,3 @@ def ask_gpt(prompt):
     message = response.choices[0].text.strip()
     return message
 
-``
